@@ -35,7 +35,7 @@ jobs:
     - name: Download artifact
       uses: actions/download-artifact@v1
       with:
-        name: pal-tracker
+        name: pal-tracker-v
     - name: Deploy to cf
       run: |
         cf login -a "$CF_API_URL" -o "$CF_ORG" -s "$CF_SPACE" -u "$CF_USERNAME" -p "$CF_PASSWORD"
