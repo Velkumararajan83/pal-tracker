@@ -18,7 +18,7 @@ import org.springframework.http.ResponseEntity;
 
 import io.pivotal.pal.tracker.TimeEntry;
 import io.pivotal.pal.tracker.TimeEntryController;
-import io.pivotal.pal.tracker.TimeEntryRepository;
+import io.pivotal.pal.tracker.repository.TimeEntryRepository;
 
 public class TimeEntryControllerTest {
     private TimeEntryRepository timeEntryRepository;
